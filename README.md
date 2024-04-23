@@ -1,27 +1,52 @@
-# SetupTestAngular17Electron
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.2.
+# Setup Angular 17 Electron TS
 
-## Development server
+<b> Proyecto de Testing y Setup de Angular 17 con Electron (TypeScript) </b>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+<p> Este proyecto es una plantilla básica para empezar a trabajar con Angular 17 y Electron, utilizando TypeScript para el desarrollo. </p>
 
-## Code scaffolding
+## Requisitos previos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<p> Antes de comenzar, asegúrate de tener instalados los siguientes programas: </p>
 
-## Build
+- Node.js (preferiblemente la versión LTS)
+- npm (gestor de paquetes de Node.js)
+- Angular CLI
+- Visual Studio Code u otro editor de código de tu preferencia
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+# Pasos para iniciar el proyecto
+1. Clonar el repositorio: clona este repositorio en tu máquina local utilizando Git
 
-## Running unit tests
+```bash
+git clone https://github.com/juanig98/setup-angular17-eletronts.git
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+2. Instalar las dependencias: entra al directorio de cada proyecto y ejecuta el siguiente comando para instalar las dependencias 
+```bash
+cd backend
+npm install
+```
+```bash
+cd frontend
+npm install
+```
 
-## Running end-to-end tests
+3. Inicializar Angular: inicializar el proyecto frontend en modo --watch
+```bash
+cd frontend
+npm run watch
+```
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. Inicializar Eletron: compilar y ejecutar proyecto backend 
+```bash
+cd backend
+npm run build:dev
 
-## Further help
+npm run dev
+```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Contribuir
+Si deseas contribuir a este proyecto, por favor abre un issue para discutir los cambios propuestos antes de enviar un pull request.
+
+## Licencia
+Este proyecto está bajo la licencia MIT.

@@ -1,0 +1,28 @@
+{
+    "name": "electron-angular-ipc-sample",
+    "version": "1.0.0",
+    "description": "",
+    "main": "build/main.js",
+    "scripts": {
+        "build:dev": "tsc",
+        "build:prod": "ng build --base-href ./ && electron-builder",
+        "dev": "electron ."
+    },
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "electron-store": "^8.2.0",
+        "pg": "^8.11.5",
+        "typeorm": "^0.3.20",
+        "typeorm-pagination": "^2.0.3"
+    },
+    "devDependencies": {
+        "@types/electron": "^1.6.10",
+        "@types/node": "^20.12.7",
+        "electron": "^30.0.1",
+        "electron-builder": "^24.13.3",
+        "electron-reload": "^2.0.0-alpha.1",
+        "typescript": "~5.4.2"
+    },
+    "author": "",
+    "license": "ISC"
+}
